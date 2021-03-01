@@ -10,4 +10,7 @@
   <ItemGroup>
     <Content Remove="wwwroot\js\EmptyJSFile.js" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\ShoppingCart\EmptyJSFile.js" />
+  </ItemGroup>
 </Project>

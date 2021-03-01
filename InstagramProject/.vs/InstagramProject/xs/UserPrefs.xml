@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.ItemProperties.InstagramProject PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="InstagramProject/wwwroot/js/index.js">
     <Files>
-      <File FileName="InstagramProject/Views/Home/Index.cshtml" Line="5" Column="34" />
-      <File FileName="InstagramProject/wwwroot/js/index.js" Line="132" Column="1" />
+      <File FileName="InstagramProject/wwwroot/js/index.js" Line="152" Column="1" />
+      <File FileName="../../ShoppingCart/MyProject.js" Line="2" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,9 +21,6 @@
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

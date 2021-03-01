@@ -144,3 +144,14 @@ function SumOfNumbers(x, y) {
 }
 
 SumOfNumbers(20, 30);
+
+
+var a = " Hello, this is a string ";
+
+var b = a.trim();
+var b = a.charAt(1);
+
+
+
+console.log(a);
+console.log(b);
