@@ -146,12 +146,35 @@ function SumOfNumbers(x, y) {
 SumOfNumbers(20, 30);
 
 
-var a = " Hello, this is a string ";
+var lineBreak3 =
+    document.createElement("br");
 
-var b = a.trim();
-var b = a.charAt(1);
+div.appendChild(lineBreak3);
+
+
+"use strict";
+
+
+var date = new Date(2021,2,5);
 
 
 
-console.log(a);
-console.log(b);
+var newDate = convertToStringFormat(date);
+
+document.write(newDate); //02/24/2021
+
+
+function convertToStringFormat(date) {
+    var stringDate =
+    (date.getMonth() + 1).toString()
+        .padStart(2,  "0")
+        +
+        "/" +
+    date.getDate().toString().padStart(2, "0") +
+        "/" +
+        date.getFullYear(stringDate);
+
+
+    return stringDate;
+
+}
